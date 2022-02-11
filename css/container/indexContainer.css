@@ -1,0 +1,97 @@
+/* indexContainer */
+.container{
+    
+}
+.container .inner-container{
+
+}
+.container .inner-container .index{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+.container .inner-container .index .sections{
+    
+}
+.container .inner-container .index .sections .section.sec1{
+    /* width: 100%;
+    height: 100vh; */
+}
+.container .inner-container .index .sections .section.sec1 .sec-con{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid #000; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt h1.title{
+    line-height: 60px;
+    /* padding: 20px 0; */
+    font-size: 40px;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt p{
+    line-height: 20px;
+    padding: 10px 0;
+    letter-spacing: 3px;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt span.dete{
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+
+.container .inner-container .index .sections .section.sec3{
+    /* width: 100%;
+    height: 100vh; */
+}
+.container .inner-container .index .sections .section.sec3 .sec-con{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid #000; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt h1.title{
+    line-height: 60px;
+    /* padding: 20px 0; */
+    font-size: 40px;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt p{
+    line-height: 20px;
+    padding: 10px 0;
+    letter-spacing: 3px;
+}
