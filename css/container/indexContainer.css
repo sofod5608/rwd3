@@ -6,7 +6,7 @@
 .container .inner-container .index {
     width: 100%;
     height: auto;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .container .inner-container .index .sections {}
@@ -200,4 +200,130 @@
     line-height: 20px;
     padding: 10px 0;
     letter-spacing: 3px;
+}
+/*sec4*/
+.container .inner-container .index .sections .section.sec4 {
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+    box-sizing: border-box;
+}
+
+.container .inner-container .index .sections .section.sec4 .sec-con {
+    flex: 0 1 980px;
+}
+
+.container .inner-container .index .sections .section.sec4 .sec-con h1.title {
+    line-height: 50px;
+    padding: 40px 0;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con {
+    width: 100%;
+    position: relative;
+    height: 550px;
+    /* min-height: 300px; */
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con>ul>li {
+    position: absolute;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con>ul>li img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .center-btn{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .center-btn span.arrow{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .center-btn span.arrow:hover{
+    background-color: rgba(255, 255, 255, 0.800);
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .bottom-con{
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .bottom-con>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .bottom-con>ul>li{
+    padding: 30px 20px 30px;
+    box-sizing: border-box;
+    color: #555;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .bottom-con>ul>li:hover{
+    background-color: rgb(248, 198, 61);
+    color: #000;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .bottom-con>ul>li h1{
+    padding: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .bottom-con>ul>li p{
+    line-height: 30px;
+}
+/*sec5*/
+.container .inner-container .index .sections .section.sec5 {
+    /* display: flex;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box; */
+    /* background-color: rgb(248, 198, 61); */
+}
+
+.container .inner-container .index .sections .section.sec5 .sec-con {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con{
+    flex: 0 1 520px;
+    /* border: 1px solid #000; */
+    text-align: center;
+    letter-spacing: 3px;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con h1.title{
+    line-height: 20px;
+    padding: 20px 0;
+    font-weight: lighter;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con p{
+    line-height: 20px;
+    font-size: 14px;
+    padding: 30px 0;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con span.pouBtn{
+    width: 100px;
+    display: block;
+    background-color: rgb(134, 100, 7);
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .2s;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con span.pouBtn:hover{
+    background-color: #000;
 }

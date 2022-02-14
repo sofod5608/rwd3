@@ -12,6 +12,7 @@
     bottom: 0;
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.699);
+    /* display: none; */
 }
 .header:hover{
     background-color: rgb(255, 255, 255);
